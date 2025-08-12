@@ -1,0 +1,20 @@
+# Основні для сервера та CrewAI
+fastapi
+uvicorn
+python-dotenv
+pydantic-settings
+crewai
+crewai-tools
+
+# LLM - використовуємо OpenAI як приклад
+openai
+
+# Для RAG бази знань
+langchain-community
+langchain-openai
+faiss-cpu # або faiss-gpu, якщо є відповідне залізо
+tiktoken
+unstructured
+
+# Для логування (аналог LangSmith)
+langchain
